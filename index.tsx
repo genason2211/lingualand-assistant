@@ -84,7 +84,7 @@ async function initializeChat() {
     });
 
     // Отправляем "Привет" для инициализации и получения первого сообщения от Али
-    await sendMessageToAI("Привет", true); 
+    // await sendMessageToAI("Привет", true); 
 
   } catch (error) {
     console.error("Failed to initialize chat:", error);
